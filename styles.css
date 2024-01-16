@@ -25,6 +25,9 @@ nav{
  nav li a:hover{
     color: #ffffff;
  }
+ nav li a:hover{
+  color: #076fe5;
+ }
 /* for hero secttion*/
 .h1st{
     font-size: 80px;

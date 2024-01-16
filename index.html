@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cognifyz</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <nav data-aos="fade-left">
             <li><a href="#">Home</a></li>
             <li><a href="#domains">Domains</a></li>
             <li><a href="#about">About us</a></li>
             <li><a href="#contact">Contact us</a></li>
         </nav>
         <section class="sec1">
-        <div class="cont">
+        <div class="cont"  data-aos="fade-right">
             <h1 class="h1st">Web-Developer</h1>
             <h3 class="h2nd">Internship Opportunities</h3>
             <h2 class="h3rd">At Cognifyz Technologies</h2>
@@ -26,22 +27,22 @@
                 </svg>
               </button>
         </div>
-            <div class="internpic">
+            <div class="internpic" data-aos="zoom-in">
                 <img src="Internship-amico.png" alt="internship picture" >
             </div>
         </section>
     </header>
     <main>
-        <h1 class="intro">Introduction</h1>
+        <h1 class="intro" data-aos="fade-right">Introduction</h1>
         <div>
-        <hr style="width: 200px; height: 4px;background-color: #353535; margin-left: 100px;">
+        <hr style="width: 200px; height: 4px;background-color: #353535; margin-left: 100px;" data-aos="fade-right">
     </div>
         <section class="msec">
-        <div class="mimg">
+        <div class="mimg" data-aos="zoom-in">
             <img src="Coding workshop-rafiki.png" alt="learning">
         </div>
-        <div class="mpara">
-         <h3>Program Duration:</h3><p>1month</p>
+        <div class="mpara" data-aos="fade-left">
+         <h3>Program Duration:</h3><p>1 month</p>
          <h3>Internship Positions:</h3>
          <ul type="circle">
             <li>Web Development Intern</li>
@@ -56,12 +57,12 @@
         <p>Remote/WFH</p>
         </div>
     </section>
-    <h1 id="highlights" class="midmain">Highlights</h1>
+    <h1 id="highlights" class="midmain" data-aos="fade-left">Highlights</h1>
     <div>
-    <hr style="width: 200px; height: 4px;background-color: #353535; float: right; margin-right:100px;">
+    <hr style="width: 200px; height: 4px;background-color: #353535; float: right; margin-right:100px;" data-aos="fade-left">
     </div>
     <section class="midsec">
-        <div class="midp">
+        <div class="midp" data-aos="fade-right">
             <p><b>For the interview process:</b>
                 Successfully completing the first month of the internship is a prerequisite for eligibility.
                 The interview process will be conducted after the completion of the internship.
@@ -75,12 +76,12 @@
                 These letters will confirm the successful completion of your internship and provide a recommendation for future opportunities.   
             </p>
         </div>
-        <div class="midimg">
+        <div class="midimg" data-aos="zoom-in">
             <img src="Certification-pana copy.png" alt="certification pic">
         </div>
     </section>
-    <h1 class="midmain2">Qualifications</h1>
-    <section class="familyedu">
+    <h1 class="midmain2" data-aos="fade-down">Qualifications</h1>
+    <section class="familyedu" data-aos="fade-left">
         <div class="mid2">
             <h2>Frontend Developer Intern</h2>
             <img src="Website designer-pana.png" alt="">
@@ -186,10 +187,17 @@
                 <a href="#">Hire with us</a>
                 <a href="#">Help</a>
             </div>
-            <div class="copyright">
+            <div class="copyright" data-aos="fade-up">
                 <p>© 2022, Cognifyz - All Rights Reserved</p>
             </div>
         </footer>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:300,
+            duration:1000
+        });
+      </script>
 </body>
 </html>
