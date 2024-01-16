@@ -234,8 +234,7 @@ nav{
  footer{
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 200px;
+  justify-content: space-evenly;
   margin-top: 20px;
 }
 footer .col{
@@ -245,7 +244,7 @@ footer .col{
   margin-bottom: 20px;
 }
 
-footer .logo{
+footer .logo img{
   margin-bottom: 30px;
   height: 60px;
   width: 60px;
